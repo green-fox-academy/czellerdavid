@@ -1,6 +1,6 @@
-/*package academy.greenfox;
-import.java.util.Scanner;
-import..java.lang.Math;
+
+import java.util.Scanner;
+import java.lang.Math;
 
 
 public class Bmi {
@@ -12,7 +12,7 @@ public class Bmi {
 
     Scanner input = new Scanner(System.in);
 
-    System.out.println(massInKg);
+    //System.out.println("Hello, please");    //System.out.println(massInKg);
     massInKg = input.nextFloat();
 
     System.out.print(heightInM);
@@ -46,8 +46,7 @@ public class Bmi {
     }
 
 
-        bmi = weight (kg) ÷ height^2 (m^2)
+        //bmi = weight (kg) ÷ height^2 (m^2)
     // Print the Body mass index (BMI) based on these values
   }
 }
-*/
