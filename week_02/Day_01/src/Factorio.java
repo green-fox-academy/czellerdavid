@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class Factorio {
   public static void main(String[] args) {
-    int number = 10;
+    int number = 5;
     factorio(number);
 
   }
