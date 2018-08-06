@@ -19,7 +19,5 @@ public class Append {
     letter += "a";
     return letter;
 
-
-
   }
 }
