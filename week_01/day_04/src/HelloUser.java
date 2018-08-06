@@ -22,6 +22,7 @@ public class HelloUser {
 
       // It prints the integer
       System.out.println(userInput2);
+
     }
 
 

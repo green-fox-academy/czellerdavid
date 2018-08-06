@@ -1,4 +1,4 @@
-package academy.greenfox;
+
 
   public class CodingHours {
 
@@ -17,6 +17,9 @@ package academy.greenfox;
         int weekdays = 17 * 5;
         int semester = (17 * 7);
         int weeklyhrs = 52;
+
+      System.out.println();
+
 
         System.out.println("U spend " + weekdays * hrs + "hours with coding usually.");
         System.out.println("U r coding average " + (weekdays + hrs) % weeklyhrs + " hrs during the semester, weekly.");

@@ -1,4 +1,4 @@
-package PACKAGE_NAME;
+public class ggggg{
 
-public class ggggg {
+
 }

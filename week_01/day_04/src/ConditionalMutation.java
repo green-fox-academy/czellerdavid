@@ -1,15 +1,20 @@
+
 /*
 public class ConditionalMutation {
+
   public static void main(String[] args) {
 
     double a = 24;
     int out = 0;
     // if a is even increment out by one
 
+    if ((a % 2) == 0) {
 
+      System.out.println("out = " + out + 1);
+    } else {
 
-    System.out.println(out);
-
+      System.out.println("Odd");
+    }
 
 
 
@@ -19,10 +24,18 @@ public class ConditionalMutation {
     // if less than 10 set out2 to "Less!",
     // if more than 20 set out2 to "More!"
 
+    if (b > 10 && b < 20)  out2 == "Sweet!";
+
+
+    else if (b < 10) {
+      boolean = out2 == "Less!";
+    }
+
+    else if (b > 20) {
+      out2 == "More!";
+    }
 
     System.out.println(out2);
-
-
 
     int c = 123;
     int credits = 100;
@@ -52,5 +65,4 @@ public class ConditionalMutation {
 
     System.out.println(out3);
   }
-}
-*/
+}*/

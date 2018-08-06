@@ -2,29 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f0e4ebff-ff94-4292-8216-3d738dad363f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../../week_01/Week_02-Day_01/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../week_01/day_04/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../week_01/day_04/src/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../week_01/day_04/src/Array.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../week_01/day_04/src/Fibonacchi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../week_01/day_04/src/FizzBuzz.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../week_01/day_04/src/IWontCheat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../week_01/day_04/src/Pyramid.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../week_01/day_04/src/Triangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../week_01/day_04/src/blabla.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../week_01/day_04/src/ggggg.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../week_01/day_04/src/hg.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../week_01/day_04/src/laci.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../week_01/day_04/src/lacika.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Append.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Doubling.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Greet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Factorio.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Params.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Sum.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../week_01/day_04/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../week_01/day_04/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week_01/day_04/src/Array.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../week_01/day_04/src/Array.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../week_01/day_04/src/CodingHours.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../week_01/day_04/src/CodingHours.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../week_01/day_04/src/ConditionalMutation.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../week_01/day_04/src/ConditionalMutation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week_01/day_04/src/Fibonacchi.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../week_01/day_04/src/Fibonacchi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week_01/day_04/src/FizzBuzz.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../week_01/day_04/src/FizzBuzz.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../week_01/day_04/src/HelloUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../week_01/day_04/src/HelloUser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week_01/day_04/src/IWontCheat.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../week_01/day_04/src/IWontCheat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week_01/day_04/src/Pyramid.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../week_01/day_04/src/Pyramid.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week_01/day_04/src/Triangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../week_01/day_04/src/Triangle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week_01/day_04/src/blabla.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../week_01/day_04/src/blabla.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week_01/day_04/src/ggggg.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../week_01/day_04/src/ggggg.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week_01/day_04/src/hg.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../week_01/day_04/src/hg.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week_01/day_04/src/laci.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../week_01/day_04/src/laci.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../week_01/day_04/src/lacika.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../week_01/day_04/src/lacika.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../week_01/day_04/src/parametricAverage.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../week_01/day_04/src/parametricAverage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Append.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Append.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -45,23 +43,23 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="iml" value="1" />
-          <entry key="java" value="4" />
+          <entry key="java" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="IDEA_MODULE" value="1" />
-          <entry key="JAVA" value="4" />
+          <entry key="JAVA" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="698" />
+          <entry key="java" value="1421" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="698" />
+          <entry key="JAVA" value="1421" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.spring.boot.mvc.usages" />
@@ -74,8 +72,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Doubling.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="336">
-              <caret line="21" column="1" lean-forward="true" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
+            <state relative-caret-position="320">
+              <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
             </state>
           </provider>
         </entry>
@@ -89,11 +87,38 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Append.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="18" column="20" lean-forward="true" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
+            <state relative-caret-position="368">
+              <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Sum.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="15" column="26" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Factorio.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="15" column="56" selection-start-line="15" selection-start-column="56" selection-end-line="15" selection-end-column="56" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Params.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="160">
+              <caret line="10" column="35" selection-start-line="10" selection-start-column="35" selection-end-line="10" selection-end-column="35" />
             </state>
           </provider>
         </entry>
@@ -117,6 +142,9 @@
         <option value="$PROJECT_DIR$/src/Doubling.java" />
         <option value="$PROJECT_DIR$/src/Greet.java" />
         <option value="$PROJECT_DIR$/src/Append.java" />
+        <option value="$PROJECT_DIR$/src/Factorio.java" />
+        <option value="$PROJECT_DIR$/src/Sum.java" />
+        <option value="$PROJECT_DIR$/src/Params.java" />
       </list>
     </option>
   </component>
@@ -163,7 +191,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1533559062587" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1533566176972" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -182,7 +210,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Append">
+  <component name="RunManager" selected="Application.Params">
     <configuration name="Append" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Append" />
       <module name="Day_01" />
@@ -190,8 +218,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Doubling" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Doubling" />
+    <configuration name="Factorio" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Factorio" />
       <module name="Day_01" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -204,25 +232,34 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="dada" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dada" />
+    <configuration name="Params" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Params" />
+      <module name="Day_01" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Sum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Sum" />
       <module name="Day_01" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.dada" />
-      <item itemvalue="Application.Doubling" />
       <item itemvalue="Application.Greet" />
       <item itemvalue="Application.Append" />
+      <item itemvalue="Application.Sum" />
+      <item itemvalue="Application.Factorio" />
+      <item itemvalue="Application.Params" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Params" />
+        <item itemvalue="Application.Sum" />
+        <item itemvalue="Application.Factorio" />
         <item itemvalue="Application.Append" />
         <item itemvalue="Application.Greet" />
-        <item itemvalue="Application.Doubling" />
-        <item itemvalue="Application.dada" />
       </list>
     </recent_temporary>
   </component>
@@ -237,12 +274,12 @@
       <option name="presentableId" value="Default" />
       <updated>1533554072671</updated>
       <workItem from="1533554074231" duration="695000" />
-      <workItem from="1533554837426" duration="3536000" />
+      <workItem from="1533554837426" duration="10305000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4231000" />
+    <option name="totallyTimeSpent" value="11000000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1680" height="946" extended-state="0" />
@@ -257,8 +294,8 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3290398" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3290398" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39929742" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -266,7 +303,7 @@
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Messages" order="11" visible="true" weight="0.3290398" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.3290398" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -288,10 +325,31 @@
     <entry file="file://$PROJECT_DIR$/Day_01.iml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/Append.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Doubling.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="21" column="1" lean-forward="true" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
+        <state relative-caret-position="320">
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Sum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="15" column="26" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Factorio.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="15" column="56" selection-start-line="15" selection-start-column="56" selection-end-line="15" selection-end-column="56" />
         </state>
       </provider>
     </entry>
@@ -302,10 +360,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Append.java">
+    <entry file="file://$PROJECT_DIR$/src/Params.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="18" column="20" lean-forward="true" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
+        <state relative-caret-position="160">
+          <caret line="10" column="35" selection-start-line="10" selection-start-column="35" selection-end-line="10" selection-end-column="35" />
         </state>
       </provider>
     </entry>
