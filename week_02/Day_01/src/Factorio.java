@@ -10,8 +10,10 @@ public class Factorio {
 
   public static void factorio(int number) {
     int factorio = 1;
-    for (int i = 1; i <= number; i++) {
+    int i = 1;
+    while ( i <= number) {
       factorio = factorio * i;
+      i++;
     }
     System.out.println("Factorial of " + number +  " is: " +  factorio);
   }

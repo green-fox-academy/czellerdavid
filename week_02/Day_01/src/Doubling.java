@@ -7,16 +7,15 @@ public class Doubling {
     // - Print the result of `doubling(baseNum)`
 
     int baseNum = 123;
-    int kicsi = 44;
+
     System.out.println(doubling(baseNum));
-    System.out.println(doubling(kicsi));
+
 
 
   }
 
   public static int doubling(int jozsi) {
-    jozsi*=2;
-    return jozsi;
+    return jozsi * 2;
   }
 
 }
