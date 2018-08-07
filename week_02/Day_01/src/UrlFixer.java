@@ -5,7 +5,12 @@ import java.util.Arrays;
 
 public class UrlFixer {
   public static void main(String... args) {
-    String url = new String("https//www.reddit.com/r/nevertellmethebots");
+    String url = "https//www.reddit.com/r/nevertellmethebots";
+    //String urlb = "https//www.reddit.com/r/nevertellmethebots";
+    //String http = "https://";
+
+    //String cucc1 = ("https//" , "bots");
+    //String cucc2 = "https://" + "odds";
     //String urlRiht = url.replaceAll("https//www.reddit.com/r/nevertellmethe", "odds");
 
     //ArrayList<String> http = new ArrayList<String>(Arrays.asList("https", "//www.reddit.com/r/nevertellmethebots"));
@@ -20,15 +25,19 @@ public class UrlFixer {
 
 
     System.out.println(url.replaceAll("bots", "odds"));
-    System.out.println(url.replaceAll("https//", "http://"));
-    System.out.println(url.replaceAll("https//", "http://") + (url.replaceAll("bots", "odds")));
+    System.out.println(url.replaceAll("https//", "https://"));
+
+   // System.out.println(url.replaceAll("https//", "http://")  (url.replaceAll("bots", "odds")));
+    //System.out.println(url.replaceAll(cucc1, cucc2));
+
     //System.out.println(url.replaceAll( "https//" + "bots", "http://" + "odds"));
-    //System.out.println(change(http));
+
+    //System.out.println(change(urlb));
 
 
   }
 
- /* public static ArrayList<String> change(ArrayList<String> p) {
+  public static ArrayList<String> change(ArrayList<String> p) {
     String change = "https:";
     p.set(0, change);
 
@@ -36,6 +45,6 @@ public class UrlFixer {
 
 
 
-  }*/
+  }
 
 }

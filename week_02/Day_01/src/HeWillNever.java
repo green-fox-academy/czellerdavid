@@ -1,4 +1,6 @@
-/*import java.util.*;
+import sun.awt.SunHints;
+
+import java.util.*;
 
 
 public class HeWillNever {
@@ -6,7 +8,7 @@ public class HeWillNever {
     String out = "";
     int[] notSoCrypticMessage = {1, 12, 1, 2, 11, 1, 7, 11, 1, 49, 1, 3, 11, 1, 50, 11};
 
-    Map<Integer, String> map = new HashMap<Integer, String>();
+    Map<Integer, String> map = new HashMap<Integer, String> ();
     //HashMap map = new HashMap();
 
     map.put(7, "run around and desert you");
@@ -19,34 +21,35 @@ public class HeWillNever {
     map.put(3, "say goodbye ");
 
 
+    for(int i = 0; i< notSoCrypticMessage.length;i++){
 
-    LinkedList ll = new LinkedList();
-    Iterator itr = map.keySet().iterator();
-    while(itr.hasNext()) {
-      String key = itr.next();
-      ll.add(key);
+      int key = notSoCrypticMessage[i];
+      String  value = map.get(key);
+
+      System.out.println(value);
+
+
+
     }
 
-    System.out.print(ll);  //The key list will be printed.
+
+    }
+
+   // for (int )
+      //System.out.println(map.get(key));
+    }
 
 
-    //Map m = Collections.synchronizedMap(new HashMap(1, 12, 1, 2, 11, 1, 7, 11, 1, 49, 1, 3, 11, 1, 50, 11));
+
+
+
+
+
     // Things are a little bit messed up
     // Your job is to decode the notSoCrypticMessage by using the hashmap as a look up table
     // Assemble the fragments into the out variable
 
     //System.out.println(out);
-  }
-}*/
-  /*public void processHashMap() {
-    //add keys->value pairs to a hashmap:
-    HashMap hm = new HashMap();
-    hm.put(1, "godric gryfindor");
-    hm.put(2, "helga hufflepuff");
-    hm.put(3, "rowena ravenclaw");
-    hm.put(4, "salazaar slytherin");
+  //}
 
-    //Then get data back out of it:
-  }*/
 
-//}
