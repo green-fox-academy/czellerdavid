@@ -2,10 +2,11 @@ public class Matrix2 {
 
   public static void main(String[] args) {
 
-    int[][] matrix = new int[4][4];
+    int size = 4;
+    int[][] matrix = new int[size][size];
 
-    for (int row = 0; row < 4; row++){
-      for (int col = 0; col < 4; col++){
+    for (int row = 0; row < size; row++){
+      for (int col = 0; col < size; col++){
         if (row == col) {
           matrix[row][col] = 1;
         }
