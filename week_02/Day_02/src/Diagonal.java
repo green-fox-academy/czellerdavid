@@ -8,7 +8,9 @@ public class Diagonal {
   public static void mainDraw(Graphics graphics) {
     // Draw the canvas' diagonals.
     // If it starts from the upper-left corner it should be green, otherwise it should be red.
+    graphics.setColor(Color.green);
     graphics.drawLine(x, 20, 276, HEIGHT - 40);
+    graphics.setColor(Color.red);
     graphics.drawLine(x + 212, 20, 64, HEIGHT - 40);
 
   }
