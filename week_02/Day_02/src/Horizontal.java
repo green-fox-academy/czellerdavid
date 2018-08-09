@@ -11,7 +11,7 @@ public class Horizontal {
     // and draws a 50 long horizontal line from that point.
     // Draw 3 lines with that function. Use loop for that.
     for (int i = 10, j = 10; i <= 30; i += 10, j =50)
-      graphics.drawLine(endx , starty, j, i);
+      graphics.drawLine(endx , starty, j * i, i++);
   }
 
 
