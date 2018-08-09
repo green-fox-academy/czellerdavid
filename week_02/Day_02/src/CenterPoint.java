@@ -14,12 +14,12 @@ public class CenterPoint {
     // and draws a line from that point to the center of the canvas.
     // Draw 3 lines with that function. Use loop for that.
  for (int i = 10, j = 10; i <= 30; i += 10, j--)
-    graphics.drawLine(x, y  , j, i);
-  }
+      graphics.drawLine(j, i  , x, y);
+}
 
   // Don't touch the code below
-  static int x = 160;
-  static int y = 40;
+  static int x = 320 / 2;
+  static int y = 343 / 2;
   static int WIDTH = 320;
   static int HEIGHT = 343;
 
