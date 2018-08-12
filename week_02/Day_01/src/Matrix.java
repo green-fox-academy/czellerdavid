@@ -1,7 +1,7 @@
 public class Matrix {
   public static void main(String[] args) {
 
-    int size = 20;
+    int size = 5;
     int[][] matrix = new int[size][size];
 
     for (int row = 0; row < size; row++){

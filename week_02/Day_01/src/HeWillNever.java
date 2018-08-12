@@ -24,7 +24,7 @@ public class HeWillNever {
     for(int i = 0; i< notSoCrypticMessage.length;i++){
 
       int key = notSoCrypticMessage[i];
-      String  value = map.get(key);
+      String value = map.get(key);
 
       System.out.println(value);
 
