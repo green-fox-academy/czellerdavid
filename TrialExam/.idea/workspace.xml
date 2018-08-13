@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="59458fbe-8c05-4e1c-9c90-7cf71688a726" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/academy/greenfox/countas/CountAs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/academy/greenfox/countas/CountAs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/academy/greenfox/seconds/Seconds.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/academy/greenfox/seconds/Seconds.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -36,14 +36,17 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="322" />
+          <entry key="java" value="528" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="322" />
+          <entry key="JAVA" value="528" />
         </counts>
       </usages-collector>
+      <usages-collector id="statistics.js.language.service.starts" />
+      <usages-collector id="statistics.spring.boot.run.usages" />
+      <usages-collector id="statistics.spring.boot.mvc.usages" />
     </session>
   </component>
   <component name="FileEditorManager">
@@ -57,20 +60,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/academy/greenfox/countas/CountAs.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="160">
-              <caret line="10" column="2" selection-start-line="10" selection-start-column="2" selection-end-line="10" selection-end-column="2" />
+            <state relative-caret-position="304">
+              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/academy/greenfox/seconds/Seconds.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="80">
-              <caret line="5" selection-start-line="5" selection-end-line="5" />
+            <state relative-caret-position="144">
+              <caret line="9" column="3" lean-forward="true" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
             </state>
           </provider>
         </entry>
@@ -83,9 +86,9 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/academy/greenfox/seconds/Seconds.java" />
         <option value="$PROJECT_DIR$/src/academy/greenfox/symmetric-matrix/SymmetricMatrix.java" />
         <option value="$PROJECT_DIR$/src/academy/greenfox/countas/CountAs.java" />
+        <option value="$PROJECT_DIR$/src/academy/greenfox/seconds/Seconds.java" />
       </list>
     </option>
   </component>
@@ -159,7 +162,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1534148879139" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1534149951862" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunDashboard">
@@ -174,7 +177,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.CountAs">
+  <component name="RunManager" selected="Application.Seconds">
     <configuration name="CountAs" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="academy.greenfox.countas.CountAs" />
       <module name="TrialExam" />
@@ -198,12 +201,27 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Seconds" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="academy.greenfox.seconds.Seconds" />
+      <module name="TrialExam" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="academy.greenfox.seconds.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Application.Main" />
       <item itemvalue="Application.CountAs" />
+      <item itemvalue="Application.Seconds" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Seconds" />
         <item itemvalue="Application.CountAs" />
         <item itemvalue="Application.Main" />
       </list>
@@ -221,12 +239,12 @@
       <updated>1534145845540</updated>
       <workItem from="1534145847284" duration="223000" />
       <workItem from="1534146117427" duration="791000" />
-      <workItem from="1534147188036" duration="1230000" />
+      <workItem from="1534147188036" duration="2253000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2244000" />
+    <option name="totallyTimeSpent" value="3267000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1680" height="954" extended-state="6" />
@@ -250,7 +268,7 @@
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.32906976" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32830626" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -299,17 +317,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/academy/greenfox/seconds/Seconds.java">
+    <entry file="file://$PROJECT_DIR$/src/academy/greenfox/countas/CountAs.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        <state relative-caret-position="304">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/academy/greenfox/countas/CountAs.java">
+    <entry file="file://$PROJECT_DIR$/src/academy/greenfox/seconds/Seconds.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="10" column="2" selection-start-line="10" selection-start-column="2" selection-end-line="10" selection-end-column="2" />
+        <state relative-caret-position="144">
+          <caret line="9" column="3" lean-forward="true" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
         </state>
       </provider>
     </entry>
