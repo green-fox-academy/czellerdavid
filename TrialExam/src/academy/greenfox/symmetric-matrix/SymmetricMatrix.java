@@ -22,19 +22,19 @@ public class SymmetricMatrix {
 //  }
   public static void main(String[] args) {
 
-    int size = 2;
-    int size2 = 2;
-    int[][] matrix = new int[size][size2];
+    int size = 1;
+    int size2 = 1;
+    int[][] matrix = new int[size][size];
 
-//    for (int row = 0; row < size; row++) {
-//      for (int col = 0; col < size; col++) {
-//        if (row == col) {
-//          matrix[row][col] = 1;
-//        } else {
-//          matrix[row][col] = 0;
-//        }
-//      }
-//    }
+    for (int row = 0; row < size; row++) {
+      for (int col = 0; col < size; col++) {
+        if (row == col) {
+          matrix[row][col] = 1;
+        } else {
+          matrix[row][col] = 0;
+        }
+      }
+    }
 
     for (int row = 0; row < size; row++) {
       for (int col = 0; col < size; col++) {
