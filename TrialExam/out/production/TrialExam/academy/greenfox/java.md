@@ -32,4 +32,4 @@ The application is accepted if:
 ## 5. Question time! (~15 mins) [2p]
 
 ### How can you generate a random number? [2p]
-#### Your answer: [add your answer here]
+#### Your answer: [First of all we need to import the "random" API java class. After that we need to create a random object which is a random number generator, if we done with this we need to create a for cycle where I can tell between which two number i need the program to generate a number. After we need to tell to java i need the next integer printed out. ]
