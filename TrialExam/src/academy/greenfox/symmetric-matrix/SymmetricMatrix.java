@@ -1,11 +1,50 @@
-package academy.greenfox.seconds;
+package academy.greenfox.symmetricmatrix;
 
 import java.util.ArrayList;
 import java.util.Arrays;
 
 public class SymmetricMatrix {
 
-  public static void main(String[] args) {
+  public static int[] symmetricMatrix {
+
+  int[] n = symmetricMatrix;
+
+  int[][] a = new int[n][n];
+
+    for (int i = 0; i < a.length; i++) {
+    for (int j = 0; j < a.length; j++) {
+      a[i][j] = (i + 1) * (j + 1);
+    }
+  }
+
+    for (int[] is : a) {
+    System.out.println(Arrays.toString(is));
+  }
+//  public static void main(String[] args) {
+//
+//    int size = 3;
+//    int[][] matrix = new int[size][size];
+//
+//    for (int row = 0; row < size; row++){
+//      for (int col = 0; col < size; col++){
+//        if (row == col) {
+//          matrix[row][col] = 1;
+//        }
+//        else {
+//          matrix[row][col] = 0;
+//        }
+//      }
+//    }
+//
+//    for (int row = 0; row < size; row++) {
+//      for (int col = 0; col < size; col++) {
+//
+//
+//        System.out.print(matrix[row][col]);
+//      }
+//      System.out.println();
+
+   // }
     // Create a function named `isSymmetric` that takes an n×n integer matrix (list of lists) as parameter
     // and returns true, if is that matrix is symmetric (diagonally from top-left to bottom-right)
     // or false if it is not
@@ -31,5 +70,6 @@ public class SymmetricMatrix {
 
   private static Object isSymmetric(ArrayList<ArrayList<Integer>> symmetricMatrix) {
     return null;
+
   }
 }

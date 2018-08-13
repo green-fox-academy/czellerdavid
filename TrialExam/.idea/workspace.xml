@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="59458fbe-8c05-4e1c-9c90-7cf71688a726" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/academy/greenfox/seconds/Seconds.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/academy/greenfox/seconds/Seconds.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/academy/greenfox/symmetric-matrix/SymmetricMatrix.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/academy/greenfox/symmetric-matrix/SymmetricMatrix.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -40,12 +38,12 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="1" />
-          <entry key="java" value="600" />
+          <entry key="java" value="726" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="600" />
+          <entry key="JAVA" value="726" />
           <entry key="PLAIN_TEXT" value="1" />
         </counts>
       </usages-collector>
@@ -56,16 +54,15 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/academy/greenfox/symmetric-matrix/SymmetricMatrix.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="96">
-              <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+              <caret line="6" column="2" selection-start-line="6" selection-start-column="2" selection-end-line="6" selection-end-column="2" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#599#619#0" expanded="true" />
-                <element signature="e#1014#1015#0" expanded="true" />
-                <element signature="e#1035#1036#0" expanded="true" />
+                <element signature="e#1833#1834#0" expanded="true" />
+                <element signature="e#1854#1855#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -74,17 +71,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/academy/greenfox/countas/CountAs.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="32">
-              <caret line="2" column="19" lean-forward="true" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
+            <state relative-caret-position="48">
+              <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/academy/greenfox/seconds/Seconds.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="160">
-              <caret line="10" column="3" lean-forward="true" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
+              <caret line="10" column="1" lean-forward="true" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -99,8 +96,8 @@
       <list>
         <option value="$PROJECT_DIR$/src/academy/greenfox/countas/CountAs.java" />
         <option value="$PROJECT_DIR$/src/academy/greenfox/symmetric-matrix/SymmetricMatri.java" />
-        <option value="$PROJECT_DIR$/src/academy/greenfox/symmetric-matrix/SymmetricMatrix.java" />
         <option value="$PROJECT_DIR$/src/academy/greenfox/seconds/Seconds.java" />
+        <option value="$PROJECT_DIR$/src/academy/greenfox/symmetric-matrix/SymmetricMatrix.java" />
       </list>
     </option>
   </component>
@@ -110,7 +107,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" fullScreen="true">
     <option name="y" value="22" />
     <option name="width" value="1680" />
     <option name="height" value="946" />
@@ -174,7 +171,8 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1534150963067" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1534154454160" />
+    <property name="create.test.in.the.same.root" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunDashboard">
@@ -189,7 +187,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Seconds">
+  <component name="RunManager" selected="Application.SymmetricMatrix (1)">
     <configuration name="CountAs" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="academy.greenfox.countas.CountAs" />
       <module name="TrialExam" />
@@ -227,11 +225,11 @@
       </method>
     </configuration>
     <configuration name="SymmetricMatrix (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="academy.greenfox.seconds.SymmetricMatrix" />
+      <option name="MAIN_CLASS_NAME" value="academy.greenfox.symmetricmatrix.SymmetricMatrix" />
       <module name="TrialExam" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="academy.greenfox.seconds.*" />
+          <option name="PATTERN" value="academy.greenfox.symmetricmatrix.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -246,6 +244,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SymmetricMatrix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="academy.greenfox.seconds.SymmetricMatrix" />
+      <module name="TrialExam" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="academy.greenfox.seconds.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Application.Main" />
       <item itemvalue="Application.CountAs" />
@@ -255,11 +266,11 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SymmetricMatrix (1)" />
+        <item itemvalue="Application.CountAs" />
         <item itemvalue="Application.Seconds" />
         <item itemvalue="Application.SymmetricMatrix (1)" />
         <item itemvalue="Application.SymmetricMatrix" />
-        <item itemvalue="Application.CountAs" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -275,18 +286,18 @@
       <updated>1534145845540</updated>
       <workItem from="1534145847284" duration="223000" />
       <workItem from="1534146117427" duration="791000" />
-      <workItem from="1534147188036" duration="3284000" />
+      <workItem from="1534147188036" duration="6436000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4298000" />
+    <option name="totallyTimeSpent" value="7450000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="22" width="1680" height="952" extended-state="6" />
+    <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25579977" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25579977" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -296,7 +307,7 @@
       <window_info anchor="bottom" id="Inspection Results" weight="0.32906976" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32790697" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.327551" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -349,28 +360,27 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/academy/greenfox/countas/CountAs.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="32">
-          <caret line="2" column="19" lean-forward="true" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/academy/greenfox/symmetric-matrix/SymmetricMatrix.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#599#619#0" expanded="true" />
-            <element signature="e#1014#1015#0" expanded="true" />
-            <element signature="e#1035#1036#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="48">
+          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/academy/greenfox/seconds/Seconds.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="160">
-          <caret line="10" column="3" lean-forward="true" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
+          <caret line="10" column="1" lean-forward="true" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/academy/greenfox/symmetric-matrix/SymmetricMatrix.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="6" column="2" selection-start-line="6" selection-start-column="2" selection-end-line="6" selection-end-column="2" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1833#1834#0" expanded="true" />
+            <element signature="e#1854#1855#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
