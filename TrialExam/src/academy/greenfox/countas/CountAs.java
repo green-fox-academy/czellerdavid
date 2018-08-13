@@ -4,9 +4,15 @@ import java.util.*;
 public class CountAs {
   public static void main(String[] args) {
 
-  Scanner scanner = new scanner(System.in);
+  Scanner scanner = new Scanner(System.in);
     System.out.println("Enter a word: ");
   String operation = scanner.nextLine();
+  String firstLetter = "a";
+
+  long l=System.nanoTime();
+    firstLetter = String.valueOf(operation.charAt(0));
+    System.out.println("1");
+
 
 
     // Create a function that takes a string parameter,
