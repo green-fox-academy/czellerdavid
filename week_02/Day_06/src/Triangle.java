@@ -7,7 +7,7 @@ import static javax.swing.JFrame.EXIT_ON_CLOSE;
 
 public class Triangle {
   public static void mainDraw(Graphics graphics) {
-    graphics.setColor(Color.MAGENTA);
+    graphics.setColor(Color.blue);
     bigTriangle(graphics);
   }
 
