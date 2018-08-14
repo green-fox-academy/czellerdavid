@@ -7,10 +7,6 @@ import java.util.Scanner;
 
 public class WriteMultipleLines {
   public static void main(String[] args) {
-    System.out.println(countLines());
-
-  }
-  public static String countLines() {
     Scanner scanner = new Scanner(System.in);
     System.out.println("Gimme a Path: ");
     String path = scanner.nextLine();
@@ -20,18 +16,36 @@ public class WriteMultipleLines {
     int number = scanner.nextInt();
     //System.out.println(path + "  " + word + "  " + number);
 
-    List<String> content = new ArrayList();
-    content.add(word);
-    for (int i = 0; i == number; i++ ) {
+    countLines(path, word, number);
+    System.out.println("DONE");
+
+  }
+
+    public static void countLines (String path, String word, int number) {
+
+        List<String> content = getContent(word, number);
+        WriteToFile(path,content);
+    }
+
+    public static  List<String> getContent(String word, int number) {
+      List<String> content = new ArrayList();
+      for (int i = 0; i < number; i++) {
+        content.add(word);
+      }
+      return  content;
+    }
+
+    public static void WriteToFile(String path, List<String> content){
       try {
         Path pathy = Paths.get(path);
         Files.write(pathy, content);
-      } catch (Exception e) {
+      }
+      catch (Exception e) {
+        System.out.println("There is a problem bro.");
       }
     }
-    return content.get(0);
+
   }
-}
 ////// Create a function that takes 3 parameters: a path, a word and a number,
 ////// than it should write to a file.
 ////// The path parameter should be a string, that describes the location of the file.
