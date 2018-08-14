@@ -6,15 +6,23 @@ import java.util.List;
 
 public class CountLines {
   public static void main(String[] args) {
+
+    System.out.println(countLines());
+
+  }
+
+  public static int countLines() {
+
       List<String> content = new ArrayList();
       content.add("First line of my file");
       try {
-        Path path = Paths.get("my-file2.txt");
+        Path path = Paths.get("my-file.txt");
         Files.readAllLines(path);
-        System.out.println(content);
-      } catch (Exception e) {
-       return;
+        return content.size();
       }
+      catch (Exception e) {
+      }
+    return 0;
   }
 }
 
