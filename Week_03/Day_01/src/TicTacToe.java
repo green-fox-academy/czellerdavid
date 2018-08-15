@@ -26,7 +26,8 @@ public class TicTacToe {
 
     if (checkRow(m, 'X')
     && checkColumn(m, 'X')
-    && checkAtlo1(9m, 'X')){
+    && checkAtlo1(m, 'X')
+    && checkAtlo2(m, 'X')){
       return "X";
     }
 
@@ -45,7 +46,7 @@ public class TicTacToe {
   public  static boolean checkColumn(List<String> m, char c) {
     //TODO
     for (int i = 0; i < 3; i++){
-      if(check(m, i, 0, i, 1, i, 2, c)) {
+      if(check(m, 0, i, 1, i, 2, i, c)) {
         return true;
       }
     }
@@ -55,6 +56,7 @@ public class TicTacToe {
   public static boolean checkAtlo1(List<String> m, char c) {
     return  check(m, 0, 0, 1, 1, 2, 2, c);
   }
+  public static boolean checkAtlo2(List<String>m, char c) { return check(m, 2,0, 1,1, 0,2, c);}
 
   public static boolean check(List<String> m, int x1, int y1, int x2, int y2, int x3, int y3, char c){
     char aa = m.get(x1).charAt(y1);
