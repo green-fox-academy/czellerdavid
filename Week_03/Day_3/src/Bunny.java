@@ -8,7 +8,7 @@ public class Bunny {
     if (n == 0){
       return 0;
     }
-    return bunny ;
+    return 2 + bunny(n - 1);
   }
 }
 
