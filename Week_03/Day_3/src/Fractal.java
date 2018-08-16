@@ -8,8 +8,8 @@ import static javax.swing.JFrame.EXIT_ON_CLOSE;
 public class Fractal {
   public static void mainDraw(Graphics graphics){
     int size = 300;
-    int startingPositionX = WIDTH / 2 ;
-    int startingPositionY = HEIGHT / 2 - size / 2;
+    int startingPositionX = WIDTH / 2;
+    int startingPositionY = HEIGHT / 2;
 
     drawFractal(startingPositionX, startingPositionY, size, graphics);
 
@@ -27,8 +27,8 @@ public class Fractal {
     if (size > 100) {
       drawFractal(x - size * 3 / 6, y + size  / 4, size / 2, graphics);
       drawFractal(x + size , y + size / 4, size / 2  , graphics);
-      drawFractal(x + size / 4, y + size / 4, size / 2, graphics);
-      //drawFractal(x + size / 4, y + size * 3 / 4, size / 2,graphics);
+      drawFractal(x + size / 4, y - size * 2/4, size / 2, graphics);
+      drawFractal(x + size/4, y + size , size /2  ,graphics);
     }
 
 
