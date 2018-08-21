@@ -23,7 +23,7 @@ public class Dominoes {
       System.out.println(snake);
     }
     else {
-      System.out.println("basszajba");
+      System.out.println("Nem vagyunk fainok!");
     }
 
 
@@ -40,9 +40,9 @@ public class Dominoes {
     dominoes.add(new Domino(7, 1));
     return dominoes;
   }
-
+  //go trough the list and check if it's reversed or not
   public static boolean addDomino(List<Domino> dominos, LinkedList<Domino> snake) {
-
+//go from the front
     int snakeFirst = snake.get(0).isReversed ? snake.get(0).end : snake.get(0).front;
     Domino d = findDomino(snakeFirst, dominos);
 
@@ -74,6 +74,7 @@ public class Dominoes {
 
    public static Domino findDomino(int matchingNumber, List<Domino> dominos){
 
+//get the numbers out from the list
 
     for (int i = 0; i < dominos.size() ; i++) {
         Domino tempDomino = dominos.get(i);
@@ -84,10 +85,4 @@ public class Dominoes {
      }
      return null;
    }
-
 }
-
-
-// You have the list of Dominoes
-// Order them into one snake where the adjacent dominoes have the same numbers on their adjacent sides
-// eg: [2, 4], [4, 3], [3, 5] ...
