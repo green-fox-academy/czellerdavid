@@ -1,8 +1,17 @@
 package main.java.music;
 
-public class F16 {
+public class F16 extends Aircraft {
 
-  int howManyAmmo;
-  int maxAmmo = 8;
-  int baseDamage = 30;
+  public F16() {
+    maxAmmo = 8;
+    baseDamage = 30;
+    isPriority = false;
+
+  }
+
+  @Override
+  public String getType() {
+    return "F16";
+
+  }
 }

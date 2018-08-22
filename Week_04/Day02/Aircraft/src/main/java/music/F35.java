@@ -1,12 +1,19 @@
 package main.java.music;
 
-public class F35 {
+public class F35 extends Aircraft {
 
-  int howManyAmmo;
 
   public F35() {
     maxAmmo = 12;
+    baseDamage = 50;
+    isPriority = true;
+
   }
-  int baseDamage = 50;
+
+  @Override
+  public String getType() {
+    return "F35";
+  }
+
 
 }
