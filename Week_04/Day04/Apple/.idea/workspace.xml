@@ -2,17 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="088c9ef6-88b8-4ac3-a758-4e5bb97081d8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/description.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/project-template.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Apple.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Apple.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/AppleTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Day02/Aircraft/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Day02/Aircraft/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/AppleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/AppleTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -25,6 +15,7 @@
     <session id="832805844">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.closed" value="1" />
           <entry key="project.open.time.4" value="1" />
           <entry key="project.opened" value="1" />
         </counts>
@@ -32,12 +23,12 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="3" />
-          <entry key="java" value="226" />
+          <entry key="java" value="227" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="226" />
+          <entry key="JAVA" value="227" />
           <entry key="PLAIN_TEXT" value="3" />
         </counts>
       </usages-collector>
@@ -159,7 +150,7 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1535031447421" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1535031450757" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.Arquillian JUnit4" value="" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
@@ -240,12 +231,29 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1535029743748</updated>
-      <workItem from="1535029747954" duration="1576000" />
+      <workItem from="1535029747954" duration="1713000" />
     </task>
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="AppleTest - 2018.08.23 at 15h 33m 51s.xml">
+      <configuration name="AppleTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AppleTest - 2018.08.23 at 15h 34m 05s.xml">
+      <configuration name="AppleTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AppleTest - 2018.08.23 at 15h 35m 57s.xml">
+      <configuration name="AppleTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AppleTest - 2018.08.23 at 15h 36m 02s.xml">
+      <configuration name="AppleTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AppleTest - 2018.08.23 at 15h 37m 29s.xml">
+      <configuration name="AppleTest" configurationId="JUnit" />
+    </history-entry>
+  </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1576000" />
+    <option name="totallyTimeSpent" value="1713000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1680" height="946" extended-state="6" />
@@ -265,7 +273,7 @@
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3290398" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3290398" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
