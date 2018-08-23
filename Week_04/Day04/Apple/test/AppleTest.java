@@ -8,6 +8,6 @@ public class AppleTest {
 
   @Test
   public void testPrintMessage() {
-    assertEquals("Apple", a.getApple());
+    assertEquals("Aple", a.getApple());
   }
 }
