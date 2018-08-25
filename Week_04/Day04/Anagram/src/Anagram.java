@@ -1,6 +1,9 @@
 import java.util.Arrays;
 
 public class Anagram {
+  public static void main(String[] args) {
+    System.out.println(isAnagram(firstWord, secondWord));
+  }
 
   public boolean isAnagram(String firstWord, String secondWord) {
     char[] word1 = firstWord.replaceAll("[\\s]", "Nagy").toCharArray();

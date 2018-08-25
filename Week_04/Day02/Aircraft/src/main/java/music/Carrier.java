@@ -1,6 +1,5 @@
 package main.java.music;
 
-import java.awt.*;
 import java.util.ArrayList;
 import java.util.Collections;
 
@@ -26,12 +25,14 @@ public class Carrier {
     this.hp -= damage;
   }
 
-  public void fill() throws Exception {
-    if (ammo == 0) {
-      throw new Exception("Out of ammo");
-    }
-    //Collection.sort(Aircrafts, (a, b) -> a.isPriority == b.isPriority ? 0 : a.isPriority ? 1 : -1)
+  public void fill() {
+    //   public void fill() throws Exception {
+//    if (ammo == 0) {
+//      throw new Exception("Out of ammo");
+//    }
+    Collections.sort(Aircrafts, (a, b) -> a.isPriority == b.isPriority ? 0 : a.isPriority ? 1 : -1);
     Collections.sort(Aircrafts, new AircraftPriorityComparator());
+
     for (int i = 0; i < Aircrafts.size(); i++) {
       Aircraft a = Aircrafts.get(i);
       if (ammo >= a.maxAmmo) {
@@ -42,7 +43,7 @@ public class Carrier {
         a.refill(ammo);
         ammo = 0;
       }
-    }
+ }
   }
 
   public void fight(Carrier c) {

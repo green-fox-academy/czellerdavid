@@ -4,7 +4,7 @@ public class Main {
 
   public static void main(String[] args) {
 
-   Carrier carrier = new Carrier(119, 5000);
+   Carrier carrier = new Carrier(120, 5000);
     F16 alfa1 = new F16();
     F16 alfa2 = new F16();
     F16 alfa3 = new F16();

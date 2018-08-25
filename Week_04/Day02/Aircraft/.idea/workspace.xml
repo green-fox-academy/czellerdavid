@@ -2,13 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a5f7915b-dbfb-48f0-881c-82f49129a8b5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/music/AircraftPriorityComparator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/music/Carrier.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Week_03/Day_2/Practice/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Week_03/Day_2/Practice/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/music/Aircraft.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/music/Aircraft.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/music/F16.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/music/F16.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/music/F35.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/music/F35.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/music/Carrier.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/music/Carrier.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/music/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/music/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Day04/Anagram/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Day04/Anagram/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Day04/Anagram/src/Anagram.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Day04/Anagram/src/Anagram.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Day04/Fibonacci/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Day04/Fibonacci/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Day04/Sum/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Day04/Sum/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Day04/Sum/Test/SumTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Day04/Sum/Test/SumTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -21,20 +23,21 @@
     <session id="-1746429325">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
+          <entry key="project.closed" value="3" />
           <entry key="project.open.time.0" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.open.time.1" value="2" />
+          <entry key="project.opened" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="18" />
-          <entry key="java" value="2095" />
+          <entry key="java" value="2113" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="2095" />
+          <entry key="JAVA" value="2113" />
           <entry key="PLAIN_TEXT" value="18" />
         </counts>
       </usages-collector>
@@ -67,13 +70,10 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/music/Carrier.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="434">
-              <caret line="65" column="20" lean-forward="true" selection-start-line="65" selection-start-column="20" selection-end-line="65" selection-end-column="20" />
+            <state relative-caret-position="-86">
+              <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#123#133#0" expanded="true" />
-                <element signature="e#325#326#0" expanded="true" />
-                <element signature="e#351#352#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -83,7 +83,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/music/Aircraft.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="464">
-              <caret line="29" column="3" lean-forward="true" selection-start-line="29" selection-start-column="3" selection-end-line="29" selection-end-column="3" />
+              <caret line="29" column="3" selection-start-line="29" selection-start-column="3" selection-end-line="29" selection-end-column="3" />
             </state>
           </provider>
         </entry>
@@ -91,8 +91,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/music/AircraftPriorityComparator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="11" column="35" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="35" />
+            <state relative-caret-position="272">
+              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
             </state>
           </provider>
         </entry>
@@ -110,11 +110,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/music/F35.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="128">
-              <caret line="8" column="22" lean-forward="true" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
-              <folding>
-                <element signature="e#163#164#0" expanded="true" />
-                <element signature="e#185#186#0" expanded="true" />
-              </folding>
+              <caret line="8" column="22" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -139,8 +135,8 @@
         <option value="$PROJECT_DIR$/src/main/java/music/F35.java" />
         <option value="$PROJECT_DIR$/src/main/java/music/AircraftPriorityComparator.java" />
         <option value="$PROJECT_DIR$/src/main/java/music/Aircraft.java" />
-        <option value="$PROJECT_DIR$/src/main/java/music/Carrier.java" />
         <option value="$PROJECT_DIR$/src/main/java/music/Main.java" />
+        <option value="$PROJECT_DIR$/src/main/java/music/Carrier.java" />
       </list>
     </option>
   </component>
@@ -151,7 +147,7 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="y" value="22" />
+    <option name="y" value="24" />
     <option name="width" value="1680" />
     <option name="height" value="949" />
   </component>
@@ -161,8 +157,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -185,13 +182,12 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1534979923763" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1535121363513" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -233,28 +229,25 @@
       <option name="presentableId" value="Default" />
       <updated>1534963381386</updated>
       <workItem from="1534963382706" duration="7910000" />
+      <workItem from="1535113530769" duration="392000" />
+      <workItem from="1535115057482" duration="1464000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7910000" />
+    <option name="totallyTimeSpent" value="9766000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="22" width="1680" height="949" extended-state="0" />
+    <frame x="0" y="24" width="1680" height="949" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Image Layers" />
-      <window_info id="Designer" />
-      <window_info id="UI Designer" />
-      <window_info id="Capture Tool" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24969475" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25579977" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Messages" />
-      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.37689614" />
@@ -262,15 +255,20 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="Database" />
-      <window_info anchor="right" id="Maven Projects" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="11" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Database" order="5" />
+      <window_info anchor="right" id="Theme Preview" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Maven Projects" order="8" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -280,24 +278,11 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/music/GetType.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/music/GetType.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/music/F35.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="64">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/music/Aircraft.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="464">
-          <caret line="29" column="3" lean-forward="true" selection-start-line="29" selection-start-column="3" selection-end-line="29" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/music/AircraftPriorityComparator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="11" column="35" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="35" />
+        <state relative-caret-position="128">
+          <caret line="8" column="22" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
         </state>
       </provider>
     </entry>
@@ -308,27 +293,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/music/F35.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/music/AircraftPriorityComparator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="128">
-          <caret line="8" column="22" lean-forward="true" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
-          <folding>
-            <element signature="e#163#164#0" expanded="true" />
-            <element signature="e#185#186#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="272">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/music/Carrier.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="434">
-          <caret line="65" column="20" lean-forward="true" selection-start-line="65" selection-start-column="20" selection-end-line="65" selection-end-column="20" />
+        <state relative-caret-position="-86">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#123#133#0" expanded="true" />
-            <element signature="e#325#326#0" expanded="true" />
-            <element signature="e#351#352#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/music/Aircraft.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="464">
+          <caret line="29" column="3" selection-start-line="29" selection-start-column="3" selection-end-line="29" selection-end-column="3" />
         </state>
       </provider>
     </entry>

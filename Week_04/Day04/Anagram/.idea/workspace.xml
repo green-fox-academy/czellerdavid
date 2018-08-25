@@ -2,13 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3c84cddd-4baf-44f2-bc10-4f7ef320b197" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Test/AnagramTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Anagram.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Sum/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Sum/Test/SumTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Sum/src/Sum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Apple/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Apple/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Week_03/Day_2/Practice/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Week_03/Day_2/Practice/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Day02/Aircraft/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Day02/Aircraft/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Day02/Aircraft/src/main/java/music/Carrier.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Day02/Aircraft/src/main/java/music/Carrier.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Day02/Aircraft/src/main/java/music/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Day02/Aircraft/src/main/java/music/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Anagram.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Anagram.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Fibonacci/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Fibonacci/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Sum/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Sum/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Sum/Test/SumTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Sum/Test/SumTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -21,9 +23,10 @@
     <session id="-1160680793">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
-          <entry key="project.open.time.0" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.closed" value="3" />
+          <entry key="project.open.time.0" value="2" />
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.opened" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -38,12 +41,12 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="172" />
+          <entry key="java" value="440" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="172" />
+          <entry key="JAVA" value="440" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.spring.boot.mvc.usages" />
@@ -52,12 +55,16 @@
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Anagram.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="9" column="39" selection-start-line="9" selection-start-column="39" selection-end-line="9" selection-end-column="39" />
+            <state relative-caret-position="96">
+              <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+              <folding>
+                <element signature="e#90#91#0" expanded="true" />
+                <element signature="e#120#121#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -65,12 +72,10 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Test/AnagramTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="224">
-              <caret line="14" column="1" lean-forward="true" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+            <state relative-caret-position="192">
+              <caret line="14" column="1" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#182#183#0" expanded="true" />
-                <element signature="e#225#226#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -94,8 +99,8 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/AnagramTest.java" />
-        <option value="$PROJECT_DIR$/src/Anagram.java" />
         <option value="$PROJECT_DIR$/Test/AnagramTest.java" />
+        <option value="$PROJECT_DIR$/src/Anagram.java" />
       </list>
     </option>
   </component>
@@ -105,7 +110,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="y" value="22" />
     <option name="width" value="1680" />
     <option name="height" value="946" />
@@ -116,7 +121,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -129,6 +133,7 @@
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="AndroidView" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -138,7 +143,7 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1535034784295" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1535114501766" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.Arquillian JUnit4" value="" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
@@ -166,7 +171,14 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Anagram">
+    <configuration name="Anagram" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Anagram" />
+      <module name="Anagram" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="AnagramTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Anagram" />
       <option name="PACKAGE_NAME" value="" />
@@ -175,8 +187,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="JUnit.AnagramTest" />
+      <item itemvalue="Application.Anagram" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Anagram" />
         <item itemvalue="JUnit.AnagramTest" />
       </list>
     </recent_temporary>
@@ -192,6 +209,8 @@
       <option name="presentableId" value="Default" />
       <updated>1535032730751</updated>
       <workItem from="1535032732114" duration="1790000" />
+      <workItem from="1535114169146" duration="352000" />
+      <workItem from="1535121542392" duration="274000" />
     </task>
     <servers />
   </component>
@@ -202,25 +221,24 @@
     <history-entry file="AnagramTest - 2018.08.23 at 16h 17m 26s.xml">
       <configuration name="AnagramTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="AnagramTest - 2018.08.24 at 14h 39m 02s.xml">
+      <configuration name="AnagramTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1790000" />
+    <option name="totallyTimeSpent" value="2416000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="22" width="1680" height="946" extended-state="0" />
+    <frame x="0" y="22" width="1680" height="946" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Image Layers" />
-      <window_info id="Designer" />
-      <window_info id="UI Designer" />
-      <window_info id="Capture Tool" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24969475" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25579977" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Messages" weight="0.3290398" />
-      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.3290398" />
@@ -228,15 +246,20 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="Database" />
-      <window_info anchor="right" id="Maven Projects" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.3290398" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Database" order="5" />
+      <window_info anchor="right" id="Theme Preview" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Maven Projects" order="8" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -246,29 +269,25 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/AnagramTest.java">
+    <entry file="file://$PROJECT_DIR$/src/AnagramTest.java" />
+    <entry file="file://$PROJECT_DIR$/src/Anagram.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="64">
-          <caret line="4" column="1" lean-forward="true" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
+        <state relative-caret-position="96">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+          <folding>
+            <element signature="e#90#91#0" expanded="true" />
+            <element signature="e#120#121#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Test/AnagramTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="14" column="1" lean-forward="true" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+        <state relative-caret-position="192">
+          <caret line="14" column="1" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#182#183#0" expanded="true" />
-            <element signature="e#225#226#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Anagram.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="9" column="39" selection-start-line="9" selection-start-column="39" selection-end-line="9" selection-end-column="39" />
         </state>
       </provider>
     </entry>
