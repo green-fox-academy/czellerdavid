@@ -1,20 +1,24 @@
+import java.util.ArrayList;
+
 public class TrickyAvarage {
   public static void main(String[] args) {
+    int[] numbers = {1,2,3};
 
-   int[] numbers = {1,2,3};
-    System.out.println(getTrickyAvg);
+    ArrayList<Integer> myArray = new ArrayList<Integer>(int 1,int 2,int 3);
 
-   public String getTrickyAvg() {
+
+    switch ( myArray){
 
 
     }
 
-
-
-
-
   }
+
+
+
 }
+
+
 
 /**
  * Create and test a function called `getTrickyAvg` that takes a number array (only integers) as parameter
