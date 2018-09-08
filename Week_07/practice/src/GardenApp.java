@@ -16,10 +16,10 @@ public class GardenApp {
     myGarden.add(yellow);
     myGarden.add(blue);
     myGarden.add(purple);
-//    myGarden.add(orange);
-//    myGarden.add(green);
-//    myGarden.add(green2);
-//
+    myGarden.add(orange);
+    myGarden.add(green);
+    myGarden.add(green2);
+
 
     myGarden.watering(waterAmount);
 
