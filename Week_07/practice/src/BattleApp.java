@@ -10,5 +10,6 @@ public class BattleApp {
 
     System.out.println(myShip.toString());
 
+
   }
 }

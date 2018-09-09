@@ -9,8 +9,10 @@ public class Ship {
 
   String name;
 
+
   public  Ship(String name){
     this.name = name;
+
   }
 
   public void addCaptain(Captain captain) {
@@ -20,9 +22,11 @@ public class Ship {
   }
 
 
+
   public void add(Pirate pirate) {
 
     pirates.add(pirate);
+
 
   }
 

@@ -20,6 +20,7 @@ public class CheatSheat {
 
       count++;
     }
+  return count;
   }
 
 
