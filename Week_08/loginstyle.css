@@ -1,0 +1,22 @@
+body {
+    background: lightgray;
+}
+
+table, td, th {
+    background: white;
+    border-collapse: collapse;
+}
+
+input {
+    width: 100%;
+}
+
+table {
+    color: black;
+    border-collapse: collapse;
+    border-style: hidden;
+    width: 250px;
+    height: 250px;
+    margin: auto;
+}
+
