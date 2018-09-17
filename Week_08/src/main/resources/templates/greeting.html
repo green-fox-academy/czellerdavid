@@ -6,6 +6,7 @@
 </head>
 <body>
 <!--/*@thymesVar id="name" type="templates"*/-->
-<p th:text="'Hello, ' + ${name} + '! (It is a webpage.)'"></p>
+<!--/*@thymesVar id="id" type="templates"*/-->
+<p th:text="'Hello, ' + ${name} + '! This site was loaded ' + ${id} + ' times since last server start.'"></p>
 </body>
 </html>
