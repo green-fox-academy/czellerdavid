@@ -11,10 +11,12 @@ public class Bank {
   }
 
   public List<BankAccount> getBankAccounts() {
+
     return bankAccounts;
   }
 
   public void setBankAccounts(List<BankAccount> bankAccounts) {
+
     this.bankAccounts = bankAccounts;
   }
 

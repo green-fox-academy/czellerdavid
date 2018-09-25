@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Todo</title>
+    <style>
+        body {
+
+            width: 300px;
+            margin: auto;
+        }
+
+
+        td {
+            border: 1px solid black;
+        }
+    </style>
+</head>
+<body>
+<h1>Todos 4 2day:</h1>
+<table>
+    <tr>
+        <th>Id</th>
+        <th>Action</th>
+        <th>Done</th>
+        <th>Urgent</th>
+    </tr>
+
+    <tbody>
+    <tr th:each="todo : ${todos}">
+        <td th:text="${todo.id}"></td>
+        <td th:text="${todo.title}"></td>
+        <td th:text="${todo.done}"></td>
+        <td th:text="${todo.urgent}"></td>
+    </tr>
+    </tbody>
+
+
+</table>
+
+<!-- <li th:each="todo : ${todos} " th:text= "${todo.title}"></li>-->
+
+</body>
+</html>
