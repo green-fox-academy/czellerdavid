@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en" xmlns:th="http://www.thymeleaf.org">
 <head>
-    <meta charset="UTF-8">
+    <meta charset="UTF-8 /">
     <title>Todo</title>
     <style>
         body {
@@ -10,7 +10,6 @@
             margin: auto;
         }
 
-
         td {
             border: 1px solid black;
         }
@@ -18,12 +17,14 @@
 </head>
 <body>
 <h1>Todos 4 2day:</h1>
+<a href="/todo/createTodo">Add new todo!</a>
 <table>
     <tr>
         <th>Id</th>
         <th>Action</th>
         <th>Done</th>
         <th>Urgent</th>
+        <th>Delete</th>
     </tr>
 
     <tbody>
@@ -32,6 +33,10 @@
         <td th:text="${todo.title}"></td>
         <td th:text="${todo.done}"></td>
         <td th:text="${todo.urgent}"></td>
+        <!-- <form th:action= "@{'/$(todo.id)/delete'}" method="post">-->
+        <form th:action="@{'/todo/' + ${todo.id} + '/delete'}">
+        <td><input th:type="submit" value="Delete"/></td>
+        </form>
     </tr>
     </tbody>
 

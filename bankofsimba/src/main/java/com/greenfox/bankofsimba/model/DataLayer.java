@@ -1,32 +1,38 @@
 package com.greenfox.bankofsimba.model;
 
-import java.util.Arrays;
+import org.springframework.stereotype.Service;
 
+import java.util.ArrayList;
+import java.util.List;
+
+@Service
 public class DataLayer {
 
-  private static DataLayer instance;
+  List<BankAccount> bank;
 
-  public static final DataLayer getInstance() {
-
-    if (instance == null) {
-      instance = new DataLayer();
-    }
-    return instance;
-  }
-
-  Bank bank;
 
   public DataLayer() {
-    bank = new Bank(Arrays.asList(
-        new BankAccount(1, "Simba", 2000., "Lion", true),
-        new BankAccount(2, "Timon", 1000., "Meerkat", false),
-        new BankAccount(3, "Pumba", 1000., "Warthog", false),
-        new BankAccount(4, "Ed", 500., "Hyena", false)));
+
+       bank = new ArrayList<>();
+       bank.add(new BankAccount(1, "Simba", 2000., "Lion", true));
+       bank.add(new BankAccount(2, "Timon", 1000., "Meerkat", false));
+       bank.add(new BankAccount(3, "Pumba", 1000., "Warthog", false));
+       bank.add(new BankAccount(4, "Ed", 500., "Hyena", false));
+  }
+
+  public void add(BankAccount bankAccount){
+
+    bank.add(bankAccount);
+
+  }
+
+  public List<BankAccount> getBankAccounts() {
+    return bank;
   }
 
   public BankAccount getBankAccount(long id) {
 
-    for (BankAccount account : bank.bankAccounts) {
+    for (BankAccount account : bank) {
 
       if(account.id == id){
         return account;

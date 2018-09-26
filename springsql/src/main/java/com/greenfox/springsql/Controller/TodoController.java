@@ -7,7 +7,6 @@ import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.*;
 
-import java.util.List;
 
 @Controller
 @RequestMapping("/todo")
@@ -20,6 +19,23 @@ public class TodoController {
     this.todoRepo = todoRepo;
   }
 
+  @GetMapping("/createTodo")
+  public String createTodo(Model model){
+
+    return "createTodo";
+  }
+
+  @PostMapping("/createTodo")
+  public String addTodo(@RequestParam(value = "title") String title){
+    todoRepo.save( new Todo(title));
+    return "redirect:/todo/list";
+  }
+
+  @GetMapping("/{Id}/delete")
+  public String deleteTodo(@PathVariable(value = "Id") Long id){
+    todoRepo.deleteById(id);
+    return "redirect:/todo/list";
+  }
 
 
   @GetMapping(value = {"/", "list"})
@@ -30,7 +46,7 @@ public class TodoController {
     }else {
       model.addAttribute("todos", todoRepo.findAllByDone(done));
     }
-    
+
     return "todolist";
 
   }
