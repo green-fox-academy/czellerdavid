@@ -19,14 +19,14 @@ public class MainRestController{
   }
 
   @GetMapping("/doubling")
-  public Object doubling(@RequestParam(value = "input", required = false) String input){
+  public Object doubling(@RequestParam(value = "input", required = false) Integer input){
 
     if(input == null){
       DoublingError error = new DoublingError();
       error.setError("Please provide an input!");
       return error;
     }else {
-      DoublingModel doublingModel = new DoublingModel(Integer.parseInt(input));
+      DoublingModel doublingModel = new DoublingModel((input));
       return ResponseEntity.status(HttpStatus.CREATED).body(doublingModel);
     }
   }

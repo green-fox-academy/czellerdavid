@@ -5,7 +5,7 @@ public class DoublingModel {
   private int received;
   private int result;
 
-  public DoublingModel() {
+  public DoublingModel(int input, int result) {
   }
 
   public DoublingModel(int received) {

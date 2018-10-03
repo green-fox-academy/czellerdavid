@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org" style="height: 100%">
+<head>
+    <meta charset="UTF-8">
+    <title>Spaceship</title>
+</head>
+<body style="height: 100%">
+<h1 style="margin: 0 39%">Space Transporter</h1>
+
+<form style="margin: 0 35%">
+    <table>
+        <thead>
+        <th>Planet</th>
+        <th>Population</th>
+        <th>Spaceship location</th>
+        <th>People on ship</th>
+        </thead>
+        <tbody>
+        <tr th:each="planet : ${planets}" th:object="${planet}">
+            <td th:text="*{name}"></td>
+            <td th:text="*{population}"></td>
+            <td th:if="${spaceship.planet} == *{name}">
+                <a th:href="@{'/toplanet/{id}'}">← to planet</a>
+                <a th:href="@{'/toship/{id}'}">to ship →</a>
+            </td>
+            <td th:unless="${spaceship.planet.equals(planet.name)}">
+                <form action= "#" th:action="@{'/movehere/' + ${planet.id}}" method="get">
+                    <input type="submit" value="Move Here" />
+                </form>
+            </td>
+            <td th:if="${spaceship.planet} == *{name}" th:text="${spaceship.utilization}"></td>
+            <td th:unless="${spaceship.planet} == *{name}">-</td>
+        </tr>
+        </tbody>
+    </table>
+</form>
+</body>
+</html>
