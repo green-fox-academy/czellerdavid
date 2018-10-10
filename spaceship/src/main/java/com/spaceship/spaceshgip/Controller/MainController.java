@@ -6,6 +6,7 @@ import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.PostMapping;
 
 
 @Controller
@@ -25,10 +26,20 @@ public class MainController {
     return "index";
   }
 
-  @GetMapping("/movehere/{id}")
+  @PostMapping("/movehere/{id}")
   public String moveShip(@PathVariable(value = "id") Long id){
-    System.out.println(id);
     spaceService.moveShip(1L, id);
-    return "redirect:";
+    return "redirect:/";
+  }
+
+  @GetMapping("toship/{id}")
+  public String toShip(@PathVariable(value = "id") Long planetId){
+    spaceService.toShip(1L, planetId);
+    return "redirect:/";
+  }
+  @GetMapping("/toplanet/{id}")
+  public String toPlanet(@PathVariable(value = "id") Long planetId) {
+    spaceService.toPlanet(1L, planetId);
+    return "redirect:/";
   }
 }

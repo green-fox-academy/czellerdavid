@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Show</title>
+</head>
+<body>
+<table>
+    <thead>
+    <th>Name</th>
+    <th>Balance</th>
+    <th>Animal Type</th>
+    </thead>
+    <tbody>
+    <tr th:each="bankaccounts : ${bank_account}" th:object="${bankaccounts}">
+        <td th:text="*{name}"></td>
+        <td th:text=" '$' + *{balance}"></td>
+        <td th:text="*{animalType}"></td>
+    </tr>
+    </tbody>
+</table>
+<form method="post">
+    <p>Add new Account</p>
+    <input type="text" name="name" placeholder="Name" required />
+    <input type="text" name="balance" placeholder="balance" required />
+    <input type="text" name="animaltype" placeholder="Animal Type" required />
+    <input type="Submit" value="Create">
+</form>
+</body>
+</html>

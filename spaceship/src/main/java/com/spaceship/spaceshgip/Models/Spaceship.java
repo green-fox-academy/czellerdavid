@@ -10,7 +10,7 @@ public class Spaceship {
 
   @Id
   @GeneratedValue(strategy = GenerationType.AUTO)
-  long id;
+  Long id;
   int maxCapacity;
   String planet;
   int utilization;
@@ -44,6 +44,10 @@ public class Spaceship {
   }
 
   public void setUtilization(int utilization) {
+
     this.utilization = utilization;
+  }
+  public void changeUtilization(int utilizationChange){
+    utilization += utilizationChange;
   }
 }

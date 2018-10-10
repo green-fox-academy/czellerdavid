@@ -5,10 +5,8 @@
     <title>Spaceship</title>
 </head>
 <body style="height: 100%">
-<h1 style="margin: 0 39%">Space Transporter</h1>
-
-<form style="margin: 0 35%">
-    <table>
+<h1 style="margin: 0 42%">Space Transporter</h1>
+    <table style="margin: 0 38%">
         <thead>
         <th>Planet</th>
         <th>Population</th>
@@ -20,11 +18,11 @@
             <td th:text="*{name}"></td>
             <td th:text="*{population}"></td>
             <td th:if="${spaceship.planet} == *{name}">
-                <a th:href="@{'/toplanet/{id}'}">← to planet</a>
-                <a th:href="@{'/toship/{id}'}">to ship →</a>
+                <a th:href="@{'/toplanet/' + *{id}}">← to planet</a>
+                <a th:href="@{'/toship/' + *{id}}">to ship →</a>
             </td>
-            <td th:unless="${spaceship.planet.equals(planet.name)}">
-                <form action= "#" th:action="@{'/movehere/' + ${planet.id}}" method="get">
+            <td th:unless="${spaceship.planet} == *{name}">
+                <form style="margin: 0 22%" action= "#" th:action="@{'/movehere/' + *{id}}" method="post">
                     <input type="submit" value="Move Here" />
                 </form>
             </td>
@@ -33,6 +31,5 @@
         </tr>
         </tbody>
     </table>
-</form>
 </body>
 </html>
