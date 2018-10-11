@@ -5,12 +5,11 @@ import com.practice.exampracticing.Models.Todo;
 import com.practice.exampracticing.Repositories.TodosRepo;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-
 import java.util.List;
 
 @Service
 public class TodoService {
-  
+
   TodosRepo todosRepo;
 
   @Autowired
@@ -48,4 +47,18 @@ public class TodoService {
     todosRepo.deleteById(id);
 
   }
+
+  public List<Todo> getUrgents() {
+
+
+    //  Todo[] urgentTodos = todosRepo.findAll().stream().filter(x -> x.isUrgent()).toArray(Todo[]::new);
+
+
+    //return Arrays.asList(urgentTodos);
+
+    List<Todo> urgentTodos = todosRepo.findByUrgent(true);
+    return  urgentTodos;
+
+  }
+
 }

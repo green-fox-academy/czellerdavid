@@ -1,10 +1,10 @@
 package com.practice.exampracticing.Models;
 
-import javax.persistence.*;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
 
-@Entity
-@Table(name = "todos")
-public class Todo {
+public class TodoJSON {
 
   @Id
   @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -12,16 +12,6 @@ public class Todo {
   String action;
   boolean done = false;
   boolean urgent = false;
-
-  public Todo() {
-  }
-
-  public Todo(String action, boolean done, boolean urgent) {
-    this.action = action;
-    this.done = done;
-    this.urgent = urgent;
-  }
-
 
   public Long getId() {
     return id;

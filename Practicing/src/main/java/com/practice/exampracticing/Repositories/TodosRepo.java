@@ -10,4 +10,5 @@ import java.util.List;
 public interface TodosRepo extends CrudRepository<Todo, Long> {
 
   List<Todo> findAll();
+  List<Todo>  findByUrgent(boolean urgent);
 }
