@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Cinema</title>
+</head>
+<body>
+<h1>Cinema Booking System</h1>
+<form method="post" action="/save">
+    <label for="name">Name</label><br>
+    <input type="text" id="name" name="name" required/><br>
+    <label for="phone">Phone Number</label><br>
+    <input type="text" id="phone" name="phoneNumber" required/>
+
+    <table>
+        <thead>
+            <Legend>Movies</Legend>
+        </thead>
+        <tbody>
+        <p><input type="radio" name="movie" value="ALPHA" required/>ALPHA</p>
+        <p><input type="radio" name="movie" value="A SIMPLE FAVOR" required/>A SIMPLE FAVOR</p>
+        <p><input type="radio" name="movie" value="A STAR IS BORN" required/>A STAR IS BORN</p>
+        <p><input type="radio" name="movie" value="BAD TIMES AT THE EL ROYAL" required/>BAD TIMES AT THE EL ROYAL</p>
+        <p><input type="radio" name="movie" value="BLAKKSLANSMAN" required/>BLAKKSLANSMAN</p>
+        <p><input type="radio" name="movie" value="BLUE BY MIND" required/>BLUE BY MIND</p>
+        </tbody>
+    </table>
+    <p><input type="checkbox" name="glasses"> Include 3D glasses (+ 300 HUF) </p>
+    <p><input type="Submit" value="Send"></p>
+</form>
+</body>
+</html>

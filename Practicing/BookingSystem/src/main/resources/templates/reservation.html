@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Reservation</title>
+</head>
+<body>
+<h1>Your Reservation</h1>
+<form th:each="bookings : ${booking}" th:object="${bookings}">
+    <h3>Name</h3>
+    <p th:text="*{name}"></p>
+    <h3>Phone Number</h3>
+    <p th:text="*{phoneNumber}"></p>
+    <h3>Movie</h3>
+    <p th:text="*{movie}"></p>
+    <h3 th:text=" 'Total: ' + *{price} + ' Huf'"></h3>
+</form>
+</body>
+</html>
