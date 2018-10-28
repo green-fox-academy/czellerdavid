@@ -1,0 +1,95 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+}
+
+.App-header {
+  background-color: #282c34;
+  /* min-height: 10vh; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  padding-bottom: 30%;
+}
+
+body {
+  height: 100%;
+  background-color: #282c34;
+  /* min-height: 100vh; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+
+}
+
+button {
+  color: white;
+  font-size: calc(2px + 1.5vmin);
+  background: #282c34;
+}
+
+.submitButton {
+  width: 131px;
+}
+
+.s-defaultLabel {
+  color: white;
+  font-size: calc(2px + 1.5vmin);
+}
+
+.s-label {
+  margin-bottom: 10px;
+  color: red;
+}
+
+.everythingOnOneLine * {
+  display: inline;
+}
+
+.myButton {
+  background-color: #282c34;
+  border: none;
+}
+
+input {
+  margin-bottom: 10px;
+}
+
+footer {
+  background: turquoise;
+  color: white;
+  width: 100%;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  text-align: center;
+  font-size: 17px;
+  height: 50px;
+  padding-top: 0%;
+  margin-top: 0%;
+  text-orientation: upright;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
