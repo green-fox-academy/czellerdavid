@@ -1,10 +1,14 @@
 package com.greenfox.bookingsystem.Controllers;
 
 import com.greenfox.bookingsystem.BookingDTO.Bookings;
+import com.greenfox.bookingsystem.Models.MovieSummary;
+import com.greenfox.bookingsystem.Models.TitleCountPair;
 import com.greenfox.bookingsystem.Sercives.BookingService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
+
+import java.util.List;
 
 @RestController
 public class MainRestController {
@@ -28,12 +32,12 @@ public class MainRestController {
   }
 
   @GetMapping("/top-movies")
-  public Object topMovies() {
+  public List<MovieSummary> topMovies() {
 
 
-    Object topFive = bookingService.topFive();
+//    O topFive = bookingService.topFive();
 
-    return topFive;
+    return bookingService.topFive();
 
   }
 }

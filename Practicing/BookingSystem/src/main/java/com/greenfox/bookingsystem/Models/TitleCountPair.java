@@ -3,12 +3,12 @@ package com.greenfox.bookingsystem.Models;
 public class TitleCountPair {
 
   String movie;
-  long count;
+  int count;
 
   public TitleCountPair() {
   }
 
-  public TitleCountPair(String movie, long count) {
+  public TitleCountPair(String movie, int count) {
     this.movie = movie;
     this.count = count;
   }
@@ -25,7 +25,7 @@ public class TitleCountPair {
     return count;
   }
 
-  public void setCount(long count) {
+  public void setCount(int count) {
     this.count = count;
   }
 }

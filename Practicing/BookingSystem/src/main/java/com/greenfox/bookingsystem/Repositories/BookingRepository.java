@@ -2,6 +2,7 @@ package com.greenfox.bookingsystem.Repositories;
 
 
 import com.greenfox.bookingsystem.Models.Booking;
+import com.greenfox.bookingsystem.Models.MovieSummary;
 import com.greenfox.bookingsystem.Models.TitleCountPair;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.CrudRepository;
@@ -21,5 +22,5 @@ public interface BookingRepository extends CrudRepository<Booking, Long> {
       "DESC LIMIT 5",
       nativeQuery = true)
 
-  List<TitleCountPair> mostPopularMovies();
+  List<MovieSummary> mostPopularMovies();
 }

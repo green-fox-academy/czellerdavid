@@ -1,6 +1,7 @@
 package com.greenfox.bookingsystem.Sercives;
 
 import com.greenfox.bookingsystem.Models.Booking;
+import com.greenfox.bookingsystem.Models.MovieSummary;
 import com.greenfox.bookingsystem.Models.TitleCountPair;
 import com.greenfox.bookingsystem.Repositories.BookingRepository;
 import org.hibernate.Session;
@@ -43,7 +44,7 @@ public class BookingService {
 
   }
 
-  public List<TitleCountPair> topFive() {
+  public List<MovieSummary> topFive() {
 
     return bookingRepository.mostPopularMovies();
 
